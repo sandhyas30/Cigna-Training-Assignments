@@ -26,7 +26,7 @@ namespace Assignment
             Console.WriteLine("Area of square:"+ CalculateArea(3));
         
             Console.WriteLine("Area of Circle:"+CalculateArea(4.5));
-            Console.WriteLine("Area of Rectangle:"+ CalculateArea(30,40));
+            Console.WriteLine("Area of Rectangle:"+ CalculateArea(30.45f,40));
 
         }
     }

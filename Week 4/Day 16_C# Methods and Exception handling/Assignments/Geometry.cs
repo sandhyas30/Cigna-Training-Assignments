@@ -11,7 +11,7 @@ namespace Assignment
 
         static double CalculateArea( double r)
         {
-            return Math.PI * r * r;
+            return Math.Round((Math.PI * r * r),2);
         }
 
         static float CalculateArea(float length, float breadth)

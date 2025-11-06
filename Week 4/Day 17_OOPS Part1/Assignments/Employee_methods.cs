@@ -27,7 +27,7 @@ namespace Assignment
            double PF = Basic * 0.05 ;
             
            double GrossSalary = Basic + HRA + DA - IT - PF;
-            Console.WriteLine("Total Gross Salary --- ((HRA (15%) + DA (8%) - IT (10%) - PF (5%))    :" + GrossSalary);
+            Console.WriteLine("Total Gross Salary --- (Basic + (HRA (15%) + DA (8%) - IT (10%) - PF (5%))    :" + GrossSalary);
         }
 
         public void PrintDetails()
